@@ -16,6 +16,8 @@ from telegram.ext import (
     filters,
 )
 
+print("BOT_TOKEN:", os.environ.get("BOT_TOKEN"))
+
 # Enable logging
 logging.basicConfig(level=logging.INFO)
 
